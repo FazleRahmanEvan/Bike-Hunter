@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "Yamaha R15 V3",
+        "price": "5,00,000",
+        "description": "155cc LC4V SOHC Fuel Injection Engine, 6 Speed Transmission, Super Wide Tyre, Dual Channel ABS is max powerhouse of 19.3 PS",
+        "quantity": 5,
+        "supplier":"Shakib",
+        "img": "https://i.ibb.co/YtKfjF5/Yamaha-R15-v3.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Yamaha MT-15",
+        "price": "4,50,000",
+        "description": "155cc Liquid Cooled 4V SOHC FI Engine, Raised LED Tail Light,6 Speed Transmission ",
+        "quantity": 6,
+        "supplier":"Kohli",
+        "img": "https://i.ibb.co/J2vh6NG/Yamaha-MT-15.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Yamaha Fazer FI",
+        "price": "2,80,000",
+        "description": "All new fuel injection Engine,New stylish graphics,Sporty twin headlights",
+        "quantity": 8,
+        "supplier":"Afridi",
+        "img": "https://i.ibb.co/NyghfTc/Yamaha-Fazer-FI.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Yamaha FZS-FI V 3.0",
+        "price": "2,50,000",
+        "description": "149cc Powerful FI Engine,Chrome Duct Plating,Monocross Suspension",
+        "quantity": 10,
+        "supplier":"Warner",
+        "img": "https://i.ibb.co/gg0Lsfq/Yamaha-FZS-FI-V-3.png"
+    },
+    {
+        "id": 5,
+        "name": "Yamaha FZS FI",
+        "price": "2,30,000",
+        "description": "Comfortable Separate Seat,Super Responsive Engine with Fuel,Newly Designed Muffler,New Pattern Radial Tyre",
+        "quantity": 12,
+        "supplier":"Jason",
+        "img": "https://i.ibb.co/VCbcN6r/Yamaha-FZS-FI-Double-Disc.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Yamaha Saluto",
+        "price": "1,30,000",
+        "description": "245 mm front disk brake,Lowest in class weight,Tubeless tires,High ground clearance",
+        "quantity": 15,
+        "supplier":"Malinga",
+        "img": "https://i.ibb.co/7NT7qby/Yamaha-Saluto-125.jpg"
+    }
+   
+]
