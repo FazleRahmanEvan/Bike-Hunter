@@ -1,19 +1,19 @@
 import React from 'react';
-import { Button } from 'bootstrap';
+
 import './Package.css'
 
 const Package = ({bike}) => { 
     const {name,img,description,price,quantity,supplier} = bike;
     return (
-        <div class="card col-sm-12" style={{width: "18rem;"}}>
-        <img src={img} class="card-img-top" alt="..."/>
-        <div class="card-body">
-          <h5 class="card-title">{name}</h5>
-          <p class="card-text">{description}</p>
-          <p class="card-text">Price:{price}</p>
-          <p class="card-text">Quantity:{quantity}</p>
-          <p class="card-text">Supplier Name:{supplier}</p>
-          <button>Update</button>
+        <div className="card  col-sm-12 mb-5" style={{width: "18rem"}}>
+        <img src={img} className="card-img-top" alt="..."/>
+        <div className="card-body">
+          <h5 className="card-title">{name}</h5>
+          <p className="card-text">{description}</p>
+          <p className="card-text">Price:{price}</p>
+          <p className="card-text">Quantity:{quantity}</p>
+          <p className="card-text">Supplier Name:{supplier}</p>
+          <button className='update'>Update</button>
       
         </div>
       </div>

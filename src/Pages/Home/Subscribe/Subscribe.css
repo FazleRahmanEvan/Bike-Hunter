@@ -1,0 +1,16 @@
+.subscribe{
+     margin-top:170px ;
+     margin-bottom: 180px;
+}
+.button{
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+.input-email{
+    padding-right: 45px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}

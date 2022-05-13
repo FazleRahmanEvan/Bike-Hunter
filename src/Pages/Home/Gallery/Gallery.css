@@ -1,17 +1,15 @@
-.inventory-container{
+.gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:20px;
-    padding: 40px;
-    
+    background-color:azure;
 }
-.title{
-    color: blueviolet;
+.bike-title{
+    color:blueviolet;
 }
 
-/* make inventory responsive */
+/* make gallery responsive */
 @media only screen and (max-width: 576px) {
-    .inventory-container{
+    .gallery{
         grid-template-columns: repeat(1, 1fr);
     }
     
