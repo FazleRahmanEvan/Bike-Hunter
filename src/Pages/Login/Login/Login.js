@@ -53,7 +53,7 @@ const Login = () => {
              <Form.Check type="checkbox" label="Check me out" />
              </Form.Group> */}
             <Button variant="primary" type="submit">
-               Submit
+              Login
             </Button>
            </Form>
            <p>New To Bike Hunter? <Link to="/register" className='text-primary pe-auto text-decoration-none ' onClick={navigateRegister}>Please Register</Link></p>
