@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import './Register.css'
@@ -6,6 +6,7 @@ import auth from '../../../Firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
+    const [agree, setAgree] = useState(false);
 
     const [
         createUserWithEmailAndPassword,
@@ -27,8 +28,12 @@ const Register = () => {
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
+        const agree = event.target.password.value;
+        if(agree){
+            createUserWithEmailAndPassword(email,password)
+        }
         
-        createUserWithEmailAndPassword(email,password)
+       
     }
     return (
         <div className='register-form'>

@@ -1,9 +1,9 @@
 import React from 'react'; 
 import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
-import auth from '../../../firebase.init';
+import auth from '../../../Firebase.init';
+
 import google from '../../../images/google.png'
-import Loading from '../../Shared/Loading/Loading';
 import './SocialLogin.css'
 
 const SocialLogin = () => {
@@ -12,9 +12,9 @@ const SocialLogin = () => {
     
     let errorElement;
 
-    if(loading){
-        return<Loading></Loading>
-    }
+    // if(loading){
+    //     return<Loading></Loading>
+    // }
     
     if (error) {
        errorElement = 
