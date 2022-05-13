@@ -41,7 +41,7 @@ const Register = () => {
                 <input type="password" name="password" id="" placeholder='Password' required />
                 <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="terms" />
                 <label className={agree ? 'ps-2 text-primary' : 'ps-2 text-danger'} htmlFor="terms">Accept Terms And Conditaions</label>
-                <input disabled={!agree} className='register-button mx-auto mt-3 btn btn-primary w-25 ' type="submit" value="Register" />
+                <input disabled={!agree} className='register-button mx-auto mt-4 btn btn-primary w-25 ' type="submit" value="Register" />
             </form>
             <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none ' onClick={navigateLogin}>Please Login</Link></p>
             <SocialLogin></SocialLogin>
