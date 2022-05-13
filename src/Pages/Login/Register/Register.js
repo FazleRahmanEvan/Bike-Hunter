@@ -13,28 +13,39 @@ const Register = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth)
+      ] = useCreateUserWithEmailAndPassword(auth,{sendEmailVerification:true});
+      const [updateProfile, updating, updateError] = useUpdateProfile(auth);
+
 
     const navigate = useNavigate();
     const navigateLogin = () =>{
         navigate('/login');
     }
     if(user){
-        navigate('/home')
+        
     }
 
-    const handleRegister = event =>{
+    const handleRegister = async (event) => {
         event.preventDefault();
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
-        const agree = event.target.password.value;
-        if(agree){
-            createUserWithEmailAndPassword(email,password)
-        }
+        // const agree = event.target.terms.checked;
+
+      
+          await  createUserWithEmailAndPassword(email,password);
+          await updateProfile({ displayName: name});
+          alert('Updated profile');
+          navigate('/home');
+       
+
+       
+
+
+    }
         
        
-    }
+    
     return (
         <div className='register-form'>
            <h2 className='text-primary mb-4'>Please Register</h2>

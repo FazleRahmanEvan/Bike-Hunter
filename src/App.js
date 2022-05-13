@@ -18,6 +18,7 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/inventory/:inventoryId" element={<InventoryDetail></InventoryDetail>}></Route>
         <Route path="/blog" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
