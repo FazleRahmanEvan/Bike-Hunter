@@ -6,6 +6,7 @@ import './Inventory.css'
 
 const Inventory = () => {
     const [bikes, setBikes] = useState ([]);
+   
   
     useEffect( ()=>{
         fetch('inventory.json')
