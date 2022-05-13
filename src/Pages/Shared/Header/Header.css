@@ -1,3 +1,7 @@
 .navbar{
     background-color: blueviolet;
 }
+.streetmaster{
+    display: flex;
+    padding: 2px;
+}
