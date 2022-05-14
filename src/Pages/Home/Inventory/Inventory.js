@@ -4,12 +4,13 @@ import './Inventory.css'
 
 
 
+
 const Inventory = () => {
     const [bikes, setBikes] = useState ([]);
    
   
     useEffect( ()=>{
-        fetch('inventory.json')
+        fetch('http://localhost:5000/inventory')
         .then(res => res.json())
         .then(data => setBikes(data));
     }, [])
@@ -20,7 +21,7 @@ const Inventory = () => {
            
             {
                bikes.map(bike => <Package
-                key={bike.id}
+                key={bike._id}
                 bike={bike}
                 >
 
