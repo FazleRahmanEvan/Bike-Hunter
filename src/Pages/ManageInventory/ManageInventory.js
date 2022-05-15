@@ -2,8 +2,6 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 import useInventory from '../../hooks/useInventory';
-import AddBike from '../AddBike/AddBike';
-import Inventory from '../Home/Inventory/Inventory';
 import './ManageInventory.css'
 
 const ManageInventory = () => {

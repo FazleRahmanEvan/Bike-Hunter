@@ -1,0 +1,31 @@
+.detail-title{
+    color: blueviolet;
+    font-size: 40px;
+}
+.detail{
+ display: flex;
+ padding-left: 400px;
+ padding-top: 100px;
+ gap: 120px;
+}
+.update{
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.add-quantity{
+    background-color: cornflowerblue;
+    color: white;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+}
+.restock{
+    color: blueviolet;
+    font-size: 30px;
+}

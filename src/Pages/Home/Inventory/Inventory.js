@@ -29,7 +29,7 @@ const Inventory = () => {
                 </Package>)
             }
            </div>
-           <div className='mange-inventories text-center mt-5 '>
+           <div className='mange-inventories text-center mt-3 mb-5 '>
                <button className='button-manage '><Link to='/manage' className='text-decoration-none fs-2'>Manage Inventories</Link></button>
            </div>
         </div> 
