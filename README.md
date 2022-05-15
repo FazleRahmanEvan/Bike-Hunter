@@ -1,6 +1,6 @@
-# Project Name: "BikeHunter"
+ Project Name: "BikeHunter"
 
-# Live site link: "https://motor-bike-warehouse.web.app/"
+ Live site link: "https://motor-bike-warehouse.web.app/"
 
 *I have created MongoDB as of myself for this project. 
 *I used plain CSS as well as Bootstrap & React Bootstrap.
