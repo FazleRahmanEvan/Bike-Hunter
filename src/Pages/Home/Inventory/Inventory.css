@@ -8,7 +8,19 @@
 .title{
     color: blueviolet;
 }
-
+.mange-inventories{
+   background-color: blueviolet;
+   padding:30px 80px;
+  
+}
+.button-manage{
+    background-color:aliceblue;
+    
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+   
+}
 /* make inventory responsive */
 @media only screen and (max-width: 576px) {
     .inventory-container{

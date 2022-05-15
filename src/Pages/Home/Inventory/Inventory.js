@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Package from '../Package/Package';
 import './Inventory.css'
 
@@ -10,7 +11,7 @@ const Inventory = () => {
    
   
     useEffect( ()=>{
-        fetch('http://localhost:5000/inventory')
+        fetch('https://lit-brook-59122.herokuapp.com/inventory')
         .then(res => res.json())
         .then(data => setBikes(data));
     }, [])
@@ -28,7 +29,11 @@ const Inventory = () => {
                 </Package>)
             }
            </div>
-        </div>
+           <div className='mange-inventories text-center mt-5 '>
+               <button className='button-manage '><Link to='/manage' className='text-decoration-none fs-2'>Manage Inventories</Link></button>
+           </div>
+        </div> 
+       
     );
 };
 

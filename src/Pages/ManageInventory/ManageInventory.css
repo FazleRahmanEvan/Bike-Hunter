@@ -1,0 +1,24 @@
+.manage-title{
+    color: blueviolet;
+   
+}
+.manage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:20px;
+    padding: 40px;
+}
+.button-delete{
+    background-color: blueviolet;
+    color: white;
+}
+.addnew-button{
+    background-color: blueviolet;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+
+}

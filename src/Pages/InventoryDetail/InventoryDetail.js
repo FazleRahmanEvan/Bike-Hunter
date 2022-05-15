@@ -6,7 +6,7 @@ const InventoryDetail = () => {
     const [inventory, setInventory]= useState({});
 
     useEffect( () =>{
-        const url = `http://localhost:5000/inventory/${inventoryId}`;
+        const url = `https://lit-brook-59122.herokuapp.com/inventory/${inventoryId}`;
 
         fetch(url)
         .then(res => res.json())
@@ -15,12 +15,8 @@ const InventoryDetail = () => {
     }, [])
     return (
         <div>
-            <h2>Bike Detail:{inventory.name}</h2>
-           <div className='text-center'>
-           <Link to="/checkout">
-                <button className='btn btn-primary'>Proceed Checkout</button>
-            </Link>
-           </div>
+            <h2>Bike Detail</h2>
+         
         </div>
     );
 };
